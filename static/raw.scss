@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+header {
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+section.content {
+    text-align: center;
+}
+
+div.divide {
+    color: transparent;
+    margin: auto;
+    // position: absolute;
+    width: 4px;
+    height: 53px;
+    background-color: #F5C102;
+}
+
+
+
+.feedback-form {
+    // background-col   or: #fff;
+    // margin: auto 1em;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+// h2 {
+//     margin-bottom: 20px;
+// }
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 400px;
+    color: #282828;
+    margin: auto;
+}
+
+
+
+.stars {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.stars input {
+    display: none;
+}
+
+.stars label {
+    font-size: 40px;
+    max-width: 400px;
+    margin: auto;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.stars input:checked ~ label {
+    color: gold;
+}
+
+.stars label:hover,
+.stars label:hover ~ label {
+    color: gold;
+}
+
+
+textarea {
+    max-width: 500px;
+    width: 85%;
+    margin: auto;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #E8EFF4;
+}
+
+button {
+    background-color: #282828;
+    color: #F5C102;
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #424242;
+    color: #fafafa;
+}
